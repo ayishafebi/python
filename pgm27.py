@@ -1,4 +1,10 @@
-numbers = [10, 20, 30, 40, 50]
+numbers = []
+
+n = int(input("Enter the number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter a number: "))
+    numbers.append(num)
 
 total = 0
 
